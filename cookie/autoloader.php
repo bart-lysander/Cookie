@@ -1,6 +1,17 @@
 <?php
 
-namespace spoon\session;
+/**
+ * Spoon Library
+ *
+ * This source file is part of the Spoon Library. More information,
+ * documentation and tutorials can be found @ http://www.spoon-library.com
+ *
+ * @package cookie
+ * @version 0.1
+ * @author Davy Hellemans <davy@spoon-library.com>
+ */
+
+namespace spoon\cookie;
 
 class Autoloader
 {
