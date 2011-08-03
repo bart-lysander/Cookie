@@ -1,15 +1,13 @@
 <?php
 
-/**
- * Spoon Library
- *
- * This source file is part of the Spoon Library. More information,
- * documentation and tutorials can be found @ http://www.spoon-library.com
- *
- * @package cookie
- * @version 0.1
- * @author Davy Hellemans <davy@spoon-library.com>
- */
+/*
+* This file is part of Spoon Library.
+*
+* (c) Davy Hellemans <davy@spoon-library.com>
+*
+* For the full copyright and license information, please view the license
+* file that was distributed with this source code.
+*/
 
 namespace spoon\cookie;
 
