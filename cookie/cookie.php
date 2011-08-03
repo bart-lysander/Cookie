@@ -11,7 +11,11 @@
 
 namespace spoon\cookie;
 
-// @todo add phpdocs
+/**
+ * This class is used to manipulate cookies.
+ *
+ * @author Davy Hellemans <davy@spoon-library.com>
+ */
 class Cookie
 {
 	/**

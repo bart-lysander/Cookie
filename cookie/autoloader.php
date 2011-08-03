@@ -11,6 +11,11 @@
 
 namespace spoon\cookie;
 
+/**
+ * Autoloader for this component.
+ *
+ * @author Davy Hellemans <davy@spoon-library.com>
+ */
 class Autoloader
 {
 	/**
