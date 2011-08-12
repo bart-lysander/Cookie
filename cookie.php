@@ -18,6 +18,8 @@ namespace spoon\cookie;
  */
 class Cookie
 {
+	const VERSION = 0.4;
+
 	/**
 	 * Delete one or more cookies.
 	 */
@@ -72,7 +74,6 @@ class Cookie
 		return true;
 	}
 
-
 	/**
 	 * Get the value that was stored in a cookie.
 	 *
@@ -88,7 +89,6 @@ class Cookie
 		// check for invalid value
 		return ($actualValue === false && serialize(false) != $value) ? false : $actualValue;
 	}
-
 
 	/**
 	 * Stores a value in a cookie, by default the cookie will expire in one day.
