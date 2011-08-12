@@ -19,7 +19,7 @@ namespace spoon\cookie;
 class Cookie
 {
 	/**
-	 * Deletes one or more cookies.
+	 * Delete one or more cookies.
 	 */
 	public static function delete()
 	{
@@ -45,9 +45,9 @@ class Cookie
 	}
 
 	/**
-	 * Check if the given cookie(s) exists.
+	 * Check if the given cookie(s) exist(s).
 	 *
-	 * @return bool If the cookie(s) exists, returns true otherwise false.
+	 * @return bool If the cookie(s) exist(s), returns true otherwise false.
 	 */
 	public static function exists()
 	{
@@ -76,7 +76,7 @@ class Cookie
 	/**
 	 * Get the value that was stored in a cookie.
 	 *
-	 * @return mixed The value that was stored in the cookie.
+	 * @return mixed The value that was stored in the cookie or if something went wrong.
 	 * @param string $key The name of the cookie that should be retrieved.
 	 */
 	public static function get($key)
@@ -104,7 +104,6 @@ class Cookie
 	 */
 	public static function set($key, $value, $time = 86400, $path = '/', $domain = null, $secure = false, $httpOnly = false)
 	{
-		// redefine
 		$key = (string) $key;
 		$value = serialize($value);
 		$time = time() + (int) $time;
