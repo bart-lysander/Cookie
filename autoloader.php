@@ -25,12 +25,16 @@ class Autoloader
 	 */
 	public static function autoload($class)
 	{
-		if(stripos(($class = strtolower($class)), __NAMESPACE__) === false)
+		$class = strtolower($class);
+		if(strpos($class, 'spoon\\') === false)
 		{
 			return '';
 		}
 
-		if(file_exists($file = dirname(__FILE__) . DIRECTORY_SEPARATOR . str_replace(__NAMESPACE__ . '\\', '', $class) . '.php'))
+		$file = dirname(dirname(dirname(__FILE__)));
+		$file .= DIRECTORY_SEPARATOR . str_replace('\\', DIRECTORY_SEPARATOR, $class) . '.php';
+
+		if(file_exists($file))
 		{
 			require $file;
 		}
