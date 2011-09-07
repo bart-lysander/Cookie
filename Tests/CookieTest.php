@@ -9,13 +9,15 @@
 * file that was distributed with this source code.
 */
 
-use spoon\cookie\Autoloader;
-use spoon\cookie\Cookie;
+namespace Spoon\Cookie\Tests;
+
+use Spoon\Cookie\Autoloader;
+use Spoon\Cookie\Cookie;
 
 require_once realpath(dirname(__FILE__) . '/../') . '/Autoloader.php';
 require_once 'PHPUnit/Framework/TestCase.php';
 
-class CookieTest extends PHPUnit_Framework_TestCase
+class CookieTest extends \PHPUnit_Framework_TestCase
 {
 	public function setUp()
 	{
