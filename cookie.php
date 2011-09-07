@@ -18,7 +18,7 @@ namespace spoon\cookie;
  */
 class Cookie
 {
-	const VERSION = 0.4;
+	const VERSION = 0.5;
 
 	/**
 	 * Delete one or more cookies.
