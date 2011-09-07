@@ -9,7 +9,7 @@
 * file that was distributed with this source code.
 */
 
-namespace spoon\cookie;
+namespace Spoon\Cookie;
 
 /**
  * This class is used to manipulate cookies.

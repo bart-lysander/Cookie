@@ -9,7 +9,7 @@
 * file that was distributed with this source code.
 */
 
-namespace spoon\cookie;
+namespace Spoon\Cookie;
 
 /**
  * Autoloader for this component.
@@ -25,7 +25,7 @@ class Autoloader
 	 */
 	public static function autoload($class)
 	{
-		if(strpos($class, 'spoon\\') === false)
+		if(strpos($class, 'Spoon\\') === false)
 		{
 			return '';
 		}
