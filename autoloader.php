@@ -25,7 +25,6 @@ class Autoloader
 	 */
 	public static function autoload($class)
 	{
-		$class = strtolower($class);
 		if(strpos($class, 'spoon\\') === false)
 		{
 			return '';

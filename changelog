@@ -1,3 +1,8 @@
+0.5 (2011-09-07)
+----
+- Filenames are now starting with an uppercase letter just like the class
+- Reworked the tests a bit
+
 0.4 (2011-08-12)
 ----
 - Added the version number to the Cookie class constants.
