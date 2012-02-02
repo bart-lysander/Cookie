@@ -102,7 +102,7 @@ class Cookie
 	 * @param bool[optional] $secure Should the cookie be transmitted over a HTTPS-connection? If true, make sure you use a secure connection, otherwise the cookie won't be set.
 	 * @param bool[optional] $httpOnly Should the cookie only be available through HTTP-protocol? If true, the cookie can't be accessed by Javascript, ...
 	 */
-	public static function set($key, $value, $time = 86400, $path = '/', $domain = null, $secure = false, $httpOnly = false)
+	public static function set($key, $value, $time = 86400, $path = '/', $domain = null, $secure = false, $httpOnly = true)
 	{
 		$key = (string) $key;
 		$value = serialize($value);
