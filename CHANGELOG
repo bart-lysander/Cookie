@@ -1,4 +1,4 @@
-0.6 (xxxx-xx-xx)
+0.6 (2012-02-02)
 ----
 - Unit tests now cover over 95% of the code.
 - Bugfix: when deleting a cookie, the time set in the past is now far in the past to avoid
