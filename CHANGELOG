@@ -4,6 +4,7 @@
 - Bugfix: when deleting a cookie, the time set in the past is now far in the past to avoid
   mishaps with local datetime settings.
 - The 'httpOnly' option is now enabled by default when using Cookie::set
+- Added unit tests for the Autoloader class.
 
 
 0.5 (2011-09-07)
