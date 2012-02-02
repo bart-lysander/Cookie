@@ -10,7 +10,6 @@
 */
 
 namespace Spoon\Cookie\Tests;
-
 use Spoon\Cookie\Autoloader;
 use Spoon\Cookie\Cookie;
 
