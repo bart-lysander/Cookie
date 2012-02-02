@@ -33,7 +33,7 @@ class Cookie
 				foreach($argument as $key)
 				{
 					unset($_COOKIE[(string) $key]);
-					setcookie((string) $key, null, time() - 3600);
+					setcookie((string) $key, null, 1);
 				}
 			}
 
@@ -41,7 +41,7 @@ class Cookie
 			else
 			{
 				unset($_COOKIE[(string) $argument]);
-				setcookie((string) $argument, null, time() - 3600);
+				setcookie((string) $argument, null, 1);
 			}
 		}
 	}
